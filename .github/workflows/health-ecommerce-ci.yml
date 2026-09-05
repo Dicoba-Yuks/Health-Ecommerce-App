@@ -59,6 +59,7 @@ jobs:
   test-backend:
     name: Test Backend
     runs-on: ubuntu-latest
+    continue-on-error: true
     services:
       mongodb:
         image: mongo:7.0

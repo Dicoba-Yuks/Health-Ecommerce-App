@@ -76,5 +76,5 @@ jobs:
         env:
           MONGODB_URI: mongodb://localhost:27017/health_ecommerce_test
           NODE_ENV: test
-        run: npm run seed || echo "Seed script check completed"
+        run: npm run seed || true
         working-directory: ./starter-project
